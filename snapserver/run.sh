@@ -1,4 +1,4 @@
-#!/usr/bin/env bashio
+#!/command/with-contenv bashio
 
 mkdir -p /share/snapfifo
 mkdir -p /share/snapcast
