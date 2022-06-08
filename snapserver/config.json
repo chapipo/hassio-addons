@@ -6,6 +6,7 @@
   "startup": "system",
   "boot": "auto",
   "map": ["share:rw"],
+  "init": false,
   "options": { 
     "stream": {
         "streams": ["pipe:///share/snapfifo/librespot?name=SpotifyConnect&sampleformat=44100:16:2", "pipe:///share/snapfifo/mopidy?name=Mopidy&sampleformat=44100:16:2", "tcp://0.0.0.0?port=4953&name=snapbroadcast"],
